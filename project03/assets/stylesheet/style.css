@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My Style*/
+
+.s1 {
+	display: inline-block;
+	color: red;
+	font-size: 25px;
+	margin-left: 40px;
+	padding: 10px 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+
+.header {
+	background-color: black;
+}
+
+.header-link {
+	display: inline-block;
+	float: right;
+	margin-right: 100px;
+	padding: 10px 0px 0px 0px;
+}
+
+.section1 {
+	background-color: black;
+}
+.article1 {
+	color: white;
+	padding-top: 50px;
+}
+
+.hdr1{
+	font-size:25px; 
+	padding-left: 40px;
+}
+
+.hdr2 {
+	font-size: 25px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+
+.prgh1 {
+	font-size: 14px;
+	width: 300px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.span-get {
+	padding: 10px 10px 10px 10px;
+	border: 2px solid white;
+	margin: 40px;
+}
+
+.div1 {
+	padding: 75px;
+}
+
+
+.hdr3 {
+	color: red;
+	display: inline-block;
+	padding: 50px 0 0px 40px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.prgh2 {
+	font-size: 14px;
+	line-height: 1.5;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+}
+
+.span-learn {
+	color: red;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid red;
+	margin: 40px;
+}
+
+
+.div2 {
+	padding: 75px;
+}
+
+.section2 {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+.hdr4 {
+	font-size: 18px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.article2 {
+	text-align: center;
+}
+
+.div-empty {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	
+}
+
+.prgh3 {
+	line-height: 1.5;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.div4 {
+	padding: 40px;
+}
+
+.section3 {
+	background-color: red;
+}
+
+.div-get {
+	color: white;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.span-name {
+	color: white;
+	font-size: 16px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.div-empty1 {
+	padding: 10px 1200px 20px 10px;
+	border: 1px solid white;
+	margin: 10px 40px;
+
+}
+
+.span-msg {
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.div-empty2 {
+	padding: 0px 1200px 200px 10px;
+	border: 1px solid white;
+	margin: 10px 40px;
+}
+
+.span-send {
+	padding: 10px 10px 10px 10px;
+	border: 2px solid white;
+	margin:10px 40px;
+	color: white;
+	display: inline-block;
+}
+
+.footer {
+	color: white;
+	padding: 40px; 
+}
